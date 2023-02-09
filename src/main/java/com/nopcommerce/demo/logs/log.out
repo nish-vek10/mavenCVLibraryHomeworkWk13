@@ -1,0 +1,5 @@
+2023-02-09 11:02:657 INFO  HomePage :63 - Clicking on More Search Options: [[ChromeDriver: chrome on WINDOWS (d73f89449ab5555b1627da9b9059edb9)] -> xpath: //button[@id='toggle-hp-search']]
+2023-02-09 11:02:933 INFO  HomePage :63 - Clicking on More Search Options: [[ChromeDriver: chrome on WINDOWS (56968cb7e7dc19b773ff9a1b891e6384)] -> xpath: //button[@id='toggle-hp-search']]
+2023-02-09 11:02:66 INFO  ResultPage :24 - Getting Text from: [[ChromeDriver: chrome on WINDOWS (56968cb7e7dc19b773ff9a1b891e6384)] -> xpath: //h1[@class='search-header__title']]
+2023-02-09 11:02:144 INFO  HomePage :63 - Clicking on More Search Options: [[ChromeDriver: chrome on WINDOWS (d4a57481634de704b66a684ca6475245)] -> xpath: //button[@id='toggle-hp-search']]
+2023-02-09 11:02:699 INFO  ResultPage :24 - Getting Text from: [[ChromeDriver: chrome on WINDOWS (d4a57481634de704b66a684ca6475245)] -> xpath: //h1[@class='search-header__title']]
