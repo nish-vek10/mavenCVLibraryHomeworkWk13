@@ -58,13 +58,13 @@ public class CustomListeners implements ITestListener {
     @Override
     public void onStart(ITestContext iTestContext) {
         reporter = new ExtentSparkReporter(System.getProperty("user.dir")+"/test-output/extent.html");
-        reporter.config().setDocumentTitle("Automation Report");
+        reporter.config().setDocumentTitle("TEST RESULTS FOR UK-CV-LIBRARY");
         reporter.config().setReportName("uk-cv-library");
         reporter.config().setTheme(Theme.STANDARD);
         reports = new ExtentReports();
         reports.attachReporter(reporter);
 
-        reports.setSystemInfo("User Name", System.getProperty("user.name"));
+        reports.setSystemInfo("User Name", "Nish's PC");
         reports.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
         reports.setSystemInfo("Machine", "Windows 10" + "64 Bit");
         reports.setSystemInfo("Selenium", "4.8");

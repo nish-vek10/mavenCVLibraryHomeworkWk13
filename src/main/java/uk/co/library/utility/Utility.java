@@ -367,7 +367,7 @@ public class Utility extends ManageDriver {
 
     public void acceptCookiesAndSwitchToIframe() throws InterruptedException {
         driver.switchTo().frame("gdpr-consent-notice");
-        Thread.sleep(50);
+        Thread.sleep(25);
         WebElement acceptCookies = driver.findElement(By.xpath("//span[text()='Accept All']"));
         acceptCookies.click();
     }
